@@ -3,7 +3,7 @@ MESAJ+="\nTelegram: @NEONUserBot"
 pkg upgrade
 clear
 echo -e $MESAJ
-echo "Python yüklenir"
+echo "Python yüklenilir..."
 pkg install python -y
 clear
 echo -e $MESAJ
@@ -15,7 +15,7 @@ pip install bs4
 clear
 echo -e $MESAJ
 echo "Fayl yazılır..."
-curl "https://raw.githubusercontent.com/TheOksigen/neon_userbot/master/string.py" --output "string.py"
+curl "https://raw.githubusercontent.com/TheOksigen/StringSession/master/string.py" --output "string.py"
 clear
 echo -e $MESAJ
 echo "Qurulum hazırdır, İndi StringSessionu ala bilersiz"
